@@ -1,0 +1,133 @@
+Last login: Thu Aug 26 17:12:06 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+kinjounoMacBook-puro:~ kinjobungo$ git --version
+xcode-select: note: no developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the dialog to download the command line developer tools.
+kinjounoMacBook-puro:~ kinjobungo$ git config --global user.name "kinjobungo"
+kinjounoMacBook-puro:~ kinjobungo$ git config --global user.email "kinjo.kinjo22@gmail.com"
+kinjounoMacBook-puro:~ kinjobungo$ mkdir mysite
+kinjounoMacBook-puro:~ kinjobungo$ cd mysite
+kinjounoMacBook-puro:mysite kinjobungo$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/kinjobungo/mysite/.git/
+kinjounoMacBook-puro:mysite kinjobungo$ git remote add origin <https://github.com/kinjoBungo/mysite.git>
+-bash: syntax error near unexpected token `newline'
+kinjounoMacBook-puro:mysite kinjobungo$ git remote add origin https://github.com/kinjoBungo/mysite.git
+kinjounoMacBook-puro:mysite kinjobungo$ touch index.html
+kinjounoMacBook-puro:mysite kinjobungo$ git add index.html
+kinjounoMacBook-puro:mysite kinjobungo$ git commit -m "Create index.html"
+[master (root-commit) 70d0c3a] Create index.html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+kinjounoMacBook-puro:mysite kinjobungo$ git push origin master
+Username for 'https://github.com': kinjoBungo
+Password for 'https://kinjoBungo@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/kinjoBungo/mysite.git/'
+kinjounoMacBook-puro:mysite kinjobungo$ git push origin HEAD
+Username for 'https://github.com': kinjoBungo
+Password for 'https://kinjoBungo@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/kinjoBungo/mysite.git/'
+kinjounoMacBook-puro:mysite kinjobungo$ git push origin HEAD
+Username for 'https://github.com': kinjoBungo
+Password for 'https://kinjoBungo@github.com': 
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 219 bytes | 219.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/kinjoBungo/mysite.git
+ * [new branch]      HEAD -> master
+kinjounoMacBook-puro:mysite kinjobungo$ git config --global pull.rebase false
+kinjounoMacBook-puro:mysite kinjobungo$ touch ~/.gitignore_global
+kinjounoMacBook-puro:mysite kinjobungo$ git config --global core.excludesfile ~/.gitignore_global
+kinjounoMacBook-puro:mysite kinjobungo$ open ~/.gitignore_global
+kinjounoMacBook-puro:mysite kinjobungo$ touch ~/.gitignore_global
+kinjounoMacBook-puro:mysite kinjobungo$ git config --global core.excludesfile ~/.gitignore_global
+kinjounoMacBook-puro:mysite kinjobungo$ open ~/.gitignore_global
+kinjounoMacBook-puro:mysite kinjobungo$ cd ~/Desktop
+kinjounoMacBook-puro:Desktop kinjobungo$ mkdir git_practice
+kinjounoMacBook-puro:Desktop kinjobungo$ cd git_practice
+kinjounoMacBook-puro:git_practice kinjobungo$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/kinjobungo/Desktop/git_practice/.git/
+kinjounoMacBook-puro:git_practice kinjobungo$ vi sample.rb
+
+msg = "Hello World!"
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+~                                                                                     
+-- INSERT --
